@@ -1,0 +1,38 @@
+.cards {
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.card {
+	margin: 10px;
+	padding:10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-basis:125px;
+	flex-grow:1;
+	height:25px;
+	border-bottom:1px solid #FF6F4C;
+}
+
+.card:hover {
+	border-bottom:1px solid #FFFFFF;
+}
+
+.card h3 {
+	font-size:16px;
+	text-align:center;
+}
+
+.portfoliocard {
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-basis:210px;
+	flex-grow:1;
+}
+
+.portfoliocard img {
+	max-width:210px;
+}

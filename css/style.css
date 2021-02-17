@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,400&display=swap");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/spacecolors.css");
+@import url("components/card.css");
+
+
+body {
+	margin:0px;
+	font-family: 'Rubik';
+	font-size: 16px;
+	color:#333333;
+}
+
+h1, h2, h3 {
+	font-family: 'Abril Fatface';
+	font-size: 24px;
+	line-height: 24px;
+}
+
+a:link, a:visited, a:active, a:hover {
+	text-decoration: none;
+}
